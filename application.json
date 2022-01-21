@@ -1,0 +1,18 @@
+{
+  "name": "GitGSheet",
+  "isPublic": false,
+  "viewMode": false,
+  "appIsExample": false,
+  "unreadCommentThreads": 0,
+  "color": "#D6D1F2",
+  "icon": "arrow-down",
+  "slug": "gitgsheet",
+  "evaluationVersion": 2,
+  "publishedModeThemeId": "61c951a965781921760d63a7",
+  "editModeThemeId": "61c951a965781921760d63a7",
+  "createdAt": {
+    "seconds": 1642752159,
+    "nanos": 594000000
+  },
+  "deleted": false
+}
