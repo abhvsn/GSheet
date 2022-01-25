@@ -184,7 +184,7 @@
               }
             },
             {
-              "widgetName": "Button1",
+              "widgetName": "Button2",
               "buttonColor": "#03B365",
               "displayName": "Button",
               "iconSVG": "/static/media/icon.cca02633.svg",
@@ -227,7 +227,7 @@
           ]
         ],
         "widgetNames": [
-          "Button1",
+          "Button2",
           "MainContainer",
           "Table1"
         ],
@@ -426,7 +426,7 @@
               }
             },
             {
-              "widgetName": "Button1",
+              "widgetName": "Button2",
               "buttonColor": "#03B365",
               "displayName": "Button",
               "iconSVG": "/static/media/icon.cca02633.svg",
@@ -469,7 +469,7 @@
           ]
         ],
         "widgetNames": [
-          "Button1",
+          "Button2",
           "MainContainer",
           "Table1"
         ],
