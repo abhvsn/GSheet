@@ -29,11 +29,10 @@
               "widgetName": "Table1",
               "defaultPageSize": 0,
               "columnOrder": [
-                "col1",
-                "col2",
-                "randomCol",
-                "col4",
-                "rowIndex"
+                "userId",
+                "id",
+                "title",
+                "body"
               ],
               "isVisibleDownload": true,
               "dynamicPropertyPathList": [],
@@ -53,27 +52,24 @@
                   "key": "tableData"
                 },
                 {
-                  "key": "primaryColumns.col1.computedValue"
+                  "key": "primaryColumns.userId.computedValue"
                 },
                 {
-                  "key": "primaryColumns.col2.computedValue"
+                  "key": "primaryColumns.id.computedValue"
                 },
                 {
-                  "key": "primaryColumns.randomCol.computedValue"
+                  "key": "primaryColumns.title.computedValue"
                 },
                 {
-                  "key": "primaryColumns.col4.computedValue"
-                },
-                {
-                  "key": "primaryColumns.rowIndex.computedValue"
+                  "key": "primaryColumns.body.computedValue"
                 }
               ],
               "leftColumn": 5,
               "primaryColumns": {
-                "col1": {
+                "userId": {
                   "index": 0,
                   "width": 150,
-                  "id": "col1",
+                  "id": "userId",
                   "horizontalAlignment": "LEFT",
                   "verticalAlignment": "CENTER",
                   "columnType": "text",
@@ -84,13 +80,13 @@
                   "isDisabled": false,
                   "isCellVisible": true,
                   "isDerived": false,
-                  "label": "col1",
-                  "computedValue": "{{Table1.sanitizedTableData.map((currentRow) => ( currentRow.col1))}}"
+                  "label": "userId",
+                  "computedValue": "{{Table1.sanitizedTableData.map((currentRow) => ( currentRow.userId))}}"
                 },
-                "col2": {
+                "id": {
                   "index": 1,
                   "width": 150,
-                  "id": "col2",
+                  "id": "id",
                   "horizontalAlignment": "LEFT",
                   "verticalAlignment": "CENTER",
                   "columnType": "text",
@@ -101,13 +97,13 @@
                   "isDisabled": false,
                   "isCellVisible": true,
                   "isDerived": false,
-                  "label": "col2",
-                  "computedValue": "{{Table1.sanitizedTableData.map((currentRow) => ( currentRow.col2))}}"
+                  "label": "id",
+                  "computedValue": "{{Table1.sanitizedTableData.map((currentRow) => ( currentRow.id))}}"
                 },
-                "randomCol": {
+                "title": {
                   "index": 2,
                   "width": 150,
-                  "id": "randomCol",
+                  "id": "title",
                   "horizontalAlignment": "LEFT",
                   "verticalAlignment": "CENTER",
                   "columnType": "text",
@@ -118,13 +114,13 @@
                   "isDisabled": false,
                   "isCellVisible": true,
                   "isDerived": false,
-                  "label": "randomCol",
-                  "computedValue": "{{Table1.sanitizedTableData.map((currentRow) => ( currentRow.randomCol))}}"
+                  "label": "title",
+                  "computedValue": "{{Table1.sanitizedTableData.map((currentRow) => ( currentRow.title))}}"
                 },
-                "col4": {
+                "body": {
                   "index": 3,
                   "width": 150,
-                  "id": "col4",
+                  "id": "body",
                   "horizontalAlignment": "LEFT",
                   "verticalAlignment": "CENTER",
                   "columnType": "text",
@@ -135,25 +131,8 @@
                   "isDisabled": false,
                   "isCellVisible": true,
                   "isDerived": false,
-                  "label": "col4",
-                  "computedValue": "{{Table1.sanitizedTableData.map((currentRow) => ( currentRow.col4))}}"
-                },
-                "rowIndex": {
-                  "index": 4,
-                  "width": 150,
-                  "id": "rowIndex",
-                  "horizontalAlignment": "LEFT",
-                  "verticalAlignment": "CENTER",
-                  "columnType": "text",
-                  "textSize": "PARAGRAPH",
-                  "enableFilter": true,
-                  "enableSort": true,
-                  "isVisible": true,
-                  "isDisabled": false,
-                  "isCellVisible": true,
-                  "isDerived": false,
-                  "label": "rowIndex",
-                  "computedValue": "{{Table1.sanitizedTableData.map((currentRow) => ( currentRow.rowIndex))}}"
+                  "label": "body",
+                  "computedValue": "{{Table1.sanitizedTableData.map((currentRow) => ( currentRow.body))}}"
                 }
               },
               "delimiter": ",",
@@ -220,7 +199,7 @@
             {
               "id": "Page1_Api1",
               "name": "Api1",
-              "pluginType": "SAAS",
+              "pluginType": "API",
               "jsonPathKeys": [],
               "timeoutInMillisecond": 10000
             }
