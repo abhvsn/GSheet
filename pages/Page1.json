@@ -184,7 +184,7 @@
               }
             },
             {
-              "widgetName": "Button2",
+              "widgetName": "Button3",
               "buttonColor": "#03B365",
               "displayName": "Button",
               "iconSVG": "/static/media/icon.cca02633.svg",
@@ -227,7 +227,7 @@
           ]
         ],
         "widgetNames": [
-          "Button2",
+          "Button3",
           "MainContainer",
           "Table1"
         ],
