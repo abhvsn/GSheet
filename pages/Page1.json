@@ -32,8 +32,7 @@
                 "userId",
                 "id",
                 "title",
-                "body",
-                "randomValue"
+                "body"
               ],
               "isVisibleDownload": true,
               "dynamicPropertyPathList": [],
@@ -63,9 +62,6 @@
                 },
                 {
                   "key": "primaryColumns.body.computedValue"
-                },
-                {
-                  "key": "primaryColumns.randomValue.computedValue"
                 }
               ],
               "leftColumn": 5,
@@ -137,23 +133,6 @@
                   "isDerived": false,
                   "label": "body",
                   "computedValue": "{{Table1.sanitizedTableData.map((currentRow) => ( currentRow.body))}}"
-                },
-                "randomValue": {
-                  "index": 4,
-                  "width": 150,
-                  "id": "randomValue",
-                  "horizontalAlignment": "LEFT",
-                  "verticalAlignment": "CENTER",
-                  "columnType": "text",
-                  "textSize": "PARAGRAPH",
-                  "enableFilter": true,
-                  "enableSort": true,
-                  "isVisible": true,
-                  "isDisabled": false,
-                  "isCellVisible": true,
-                  "isDerived": false,
-                  "label": "randomValue",
-                  "computedValue": "{{Table1.sanitizedTableData.map((currentRow) => ( currentRow.randomValue))}}"
                 }
               },
               "delimiter": ",",
