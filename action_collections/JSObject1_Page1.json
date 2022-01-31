@@ -9,7 +9,7 @@
     "archivedActionIds": [],
     "actions": [],
     "archivedActions": [],
-    "body": "export default {\n\ttest: () => {\n\t\treturn \"Appsmith test msg\"\n\t},\n\tgetPosts: () => {\n\t\treturn Api1.data.map(row => {\n\t\t\tlet randomValue = Math.random();\n\t\t\treturn {\n\t\t\t\t...row,\n\t\t\t\trandomValue\n\t\t\t};\n\t\t});\n\t}\n}",
+    "body": "export default {\n\ttest: () => {\n\t\treturn \"Appsmith test msg\"\n\t},\n\tgetPosts: () => {\n\t\treturn Api1.data.map(row => {\n\t\t\treturn row;\n\t\t});\n\t}\n}",
     "variables": []
   },
   "id": "Page1_JSObject1",
