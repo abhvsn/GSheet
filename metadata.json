@@ -4,31 +4,6 @@
   "serverSchemaVersion": 1,
   "publishedDefaultPageName": "Page1",
   "unpublishedDefaultPageName": "Page1",
-  "actionCollectionList": [
-    {
-      "unpublishedCollection": {
-        "name": "JSObject1",
-        "pageId": "Page1",
-        "pluginId": "js-plugin",
-        "pluginType": "JS",
-        "actionIds": [],
-        "defaultToBranchedArchivedActionIdsMap": {},
-        "archivedActionIds": [],
-        "actions": [],
-        "archivedActions": [],
-        "body": "export default {\n\ttest: () => {\n\t\treturn \"Appsmith test msg\"\n\t},\n\tgetPosts: () => {\n\t\treturn Api1.data.map(row => {\n\t\t\treturn row;\n\t\t});\n\t}\n}",
-        "variables": []
-      },
-      "id": "Page1_JSObject1",
-      "deleted": false,
-      "userPermissions": [
-        "read:actions",
-        "execute:actions",
-        "manage:actions"
-      ],
-      "gitSyncId": "61ea689f5252d31280b12657_61f82f0da726d624dc708b9f"
-    }
-  ],
   "editModeTheme": {
     "name": "Classic",
     "isSystemTheme": true,
