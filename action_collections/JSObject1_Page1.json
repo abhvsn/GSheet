@@ -12,19 +12,6 @@
     "body": "export default {\n\ttest: () => {\n\t\treturn \"Appsmith test msg\"\n\t},\n\tgetPosts: () => {\n\t\treturn Api1.data.map(row => {\n\t\t\treturn row;\n\t\t});\n\t}\n}",
     "variables": []
   },
-  "publishedCollection": {
-    "name": "JSObject1",
-    "pageId": "Page1",
-    "pluginId": "js-plugin",
-    "pluginType": "JS",
-    "actionIds": [],
-    "defaultToBranchedArchivedActionIdsMap": {},
-    "archivedActionIds": [],
-    "actions": [],
-    "archivedActions": [],
-    "body": "export default {\n\ttest: () => {\n\t\treturn \"Appsmith test msg\"\n\t},\n\tgetPosts: () => {\n\t\treturn Api1.data.map(row => {\n\t\t\treturn row;\n\t\t});\n\t}\n}",
-    "variables": []
-  },
   "id": "Page1_JSObject1",
   "deleted": false,
   "userPermissions": [
