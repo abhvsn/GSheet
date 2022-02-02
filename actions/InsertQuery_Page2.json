@@ -52,10 +52,5 @@
   },
   "id": "Page2_InsertQuery",
   "deleted": false,
-  "userPermissions": [
-    "read:actions",
-    "execute:actions",
-    "manage:actions"
-  ],
   "gitSyncId": "61ea689f5252d31280b12657_61f91994511cc3075cd41ed4"
 }

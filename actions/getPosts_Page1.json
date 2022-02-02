@@ -42,10 +42,5 @@
   },
   "id": "Page1_getPosts",
   "deleted": false,
-  "userPermissions": [
-    "read:actions",
-    "execute:actions",
-    "manage:actions"
-  ],
   "gitSyncId": "61ea689f5252d31280b12657_61f82f3fa726d624dc708ba1"
 }

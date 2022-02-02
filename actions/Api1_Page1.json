@@ -40,10 +40,5 @@
   },
   "id": "Page1_Api1",
   "deleted": false,
-  "userPermissions": [
-    "read:actions",
-    "execute:actions",
-    "manage:actions"
-  ],
   "gitSyncId": "61ea689f5252d31280b12657_61f82e4ba726d624dc708b93"
 }

@@ -1518,9 +1518,5 @@
   },
   "deleted": false,
   "policies": [],
-  "userPermissions": [
-    "read:pages",
-    "manage:pages"
-  ],
   "gitSyncId": "61ea689f5252d31280b12657_61f914d843a41e1a36eabbf6"
 }

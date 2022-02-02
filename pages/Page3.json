@@ -75,9 +75,5 @@
   },
   "deleted": false,
   "policies": [],
-  "userPermissions": [
-    "read:pages",
-    "manage:pages"
-  ],
   "gitSyncId": "61f919f4511cc3075cd41eda_61f91a0d511cc3075cd41eea"
 }
