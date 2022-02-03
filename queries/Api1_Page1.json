@@ -24,7 +24,12 @@
       "path": "/posts",
       "headers": [],
       "encodeParamsToggle": true,
-      "queryParameters": [],
+      "queryParameters": [
+        {
+          "key": "userId",
+          "value": "2"
+        }
+      ],
       "httpMethod": "GET"
     },
     "executeOnLoad": true,
